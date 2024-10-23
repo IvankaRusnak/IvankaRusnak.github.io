@@ -38,10 +38,11 @@ ul{
 .ilustration{
     border: 3px dotted #74A574;
     width: 500px;
-  height: 400px;
-   align-items: center;
     overflow: scroll; 
-    display: block;
+    display: flex;
+    justify-content: center; /* Горизонтальне вирівнювання */
+    align-items: center; /* Вертикальне вирівнювання */
+    height: 64vh; /* Висота контейнера для вертикального центрування */
     padding: 0;
     margin: 0;
    
