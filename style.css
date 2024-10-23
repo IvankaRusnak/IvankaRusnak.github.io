@@ -43,6 +43,7 @@ ul{
     display: block;
     padding: 0;
     margin: 0;
+    align-items: center;
 }
 .book{
    border: 3px dotted #74A574;
