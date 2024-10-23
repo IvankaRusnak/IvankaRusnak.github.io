@@ -39,11 +39,13 @@ ul{
     border: 3px dotted #74A574;
     width: 500px;
   height: 400px;
+   align-items: center;
     overflow: scroll; 
     display: block;
     padding: 0;
     margin: 0;
-    align-items: center;
+   
+    
 }
 .book{
    border: 3px dotted #74A574;
@@ -63,4 +65,27 @@ ul{
 .abc{
  align-items: center;
   margin: 10px 5px 6px 27px;
+}
+
+.food{
+  padding: 35px;
+    margin: 60x;
+    background-color: #F2C9E2;
+    border: 10px solid #ffffff;
+    height: 1px;
+    width: 100px;
+    color: #443626;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center; /* Вертикальне вирівнювання */
+    justify-content: center; /* Горизонтальне вирівнювання */
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+ margin-bottom: 20px ;
+ width: 1000px;
+  flex-shrink: 3;
+  align-items: center;
 }
