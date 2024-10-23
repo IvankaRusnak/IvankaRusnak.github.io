@@ -25,29 +25,24 @@ font-family: Pattaya, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 ol{
-    color: #74A574;
+    color: #443626;
     font-family: 'Roboto', sans-serif;  
      align-items: center;
 }
 
-ul{
-    color: #74A574;
-    font-family: 'Roboto', sans-serif; 
-     align-items: center;
-}
+
 
 .ilustration{
-    border: 3px dotted #74A574;
-    width: 500px; 
+    border: 5px dotted #74A574;
+    width: 100%; 
+    height: auto;
     display: flex;
     justify-content: center; /* Горизонтальне вирівнювання */
     align-items: center; /* Вертикальне вирівнювання */
-    height: 64vh; /* Висота контейнера для вертикального центрування */
+    height: 68vh; /* Висота контейнера для вертикального центрування */
     padding: 0;
     margin: 0;
-   
-    
-}
+   }
 .book{
    border: 3px dotted #74A574;
     width: 500px;
