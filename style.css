@@ -37,8 +37,7 @@ ul{
 
 .ilustration{
     border: 3px dotted #74A574;
-    width: 500px;
-    overflow: scroll; 
+    width: 500px; 
     display: flex;
     justify-content: center; /* Горизонтальне вирівнювання */
     align-items: center; /* Вертикальне вирівнювання */
