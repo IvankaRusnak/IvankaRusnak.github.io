@@ -3,7 +3,7 @@ background: radial-gradient(circle, rgba(249, 219, 159, 0.5) 0%, rgb(255, 254, 2
     background-color: #d9f0e6;
 }
 
-h2 {
+h1 {
     color: #74A574;
   text-align: center;
    align-items: center;
@@ -84,4 +84,21 @@ ol{
  width: 1000px;
   flex-shrink: 3;
   align-items: center;
+}
+.navbar {
+    background-color: #74A574; 
+    padding: 10px; 
+}
+.navbar ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: space-around; 
+}
+.navbar li {
+    margin: 0 15px; 
+    }
+    .navbar a {
+    color: rgb(228, 237, 186); 
+    text-decoration: none; 
+    font-family: Pattaya, Impact, Haettenschweiler, 'Arial Narrow Bold';
 }
