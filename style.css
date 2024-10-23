@@ -5,6 +5,7 @@ body{
 h2 {
     color: #74A574;
   text-align: center;
+   align-items: center;
   font-family: Pattaya, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
@@ -13,6 +14,7 @@ p{
     color: #443626;
     font-family: 'Roboto', sans-serif;
  src: url(fonts/RobotoMono-Regular.ttf);
+  align-items: center;
 }
 
 h4 {
@@ -24,11 +26,13 @@ font-family: Pattaya, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 ol{
     color: #74A574;
     font-family: 'Roboto', sans-serif;  
+     align-items: center;
 }
 
 ul{
     color: #74A574;
     font-family: 'Roboto', sans-serif; 
+     align-items: center;
 }
 
 .ilustration{
@@ -52,9 +56,10 @@ ul{
 
 .text{
    margin: 10px 5px 6px 27px;
+    align-items: center;
 }
 
 .abc{
-
+ align-items: center;
   margin: 10px 5px 6px 27px;
 }
