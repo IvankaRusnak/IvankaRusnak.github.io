@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+}
+
+h2 {
+    color: #74A574;
+  text-align: center;
+  font-family: Pattaya, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+p{
+    color: #443626;
+    font-family: 'Roboto', sans-serif;
+ src: url(fonts/RobotoMono-Regular.ttf);
+}
+
+h4 {
+    color: #74A574;
+text-align: center;
+font-family: Pattaya, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+ol{
+    color: #74A574;
+    font-family: 'Roboto', sans-serif;  
+}
+
+ul{
+    color: #74A574;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.ilustration{
+    border: 3px dotted #74A574;
+    width: 500px;
+  height: 400px;
+    overflow: scroll; 
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.book{
+   border: 3px dotted #74A574;
+    width: 500px;
+  height: 200px;
+    overflow: scroll; 
+    display: block;
+    padding: 0;
+    margin: 0; 
+}
+
+.text{
+   margin: 10px 5px 6px 27px;
+}
+
+.abc{
+
+  margin: 10px 5px 6px 27px;
+}
