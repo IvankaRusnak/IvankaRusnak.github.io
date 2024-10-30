@@ -1,104 +1,116 @@
-body{
-background: radial-gradient(circle, rgba(249, 219, 159, 0.5) 0%, rgb(255, 254, 254) 100%);
-    background-color: #d9f0e6;
+body {
+  background: radial-gradient(
+    circle,
+    rgba(249, 219, 159, 0.5) 0%,
+    rgb(255, 254, 254) 100%
+  );
+  background-color: #d9f0e6;
 }
 
 h1 {
-    color: #74A574;
+  color: #74a574;
   text-align: center;
-   align-items: center;
-  font-family: Pattaya, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  align-items: center;
+  font-family: Pattaya, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
 }
 
-
-p{
-    color: #443626;
-    font-family: 'Roboto', sans-serif;
- src: url(fonts/RobotoMono-Regular.ttf);
+p {
+  color: #443626;
+  font-family: "Roboto", sans-serif;
+  src: url(fonts/RobotoMono-Regular.ttf);
   align-items: center;
 }
 
 h4 {
-    color: #74A574;
-text-align: center;
-font-family: Pattaya, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  color: #74a574;
+  text-align: center;
+  font-family: Pattaya, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
 }
 
-ol{
-    color: #443626;
-    font-family: 'Roboto', sans-serif;  
-     align-items: center;
+ol {
+  color: #443626;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
 }
 
-
-
-.ilustration{
-    border: 5px dotted #74A574;
-    width: 100%; 
-    height: auto;
-    display: flex;
-    justify-content: center; /* Горизонтальне вирівнювання */
-    align-items: center; /* Вертикальне вирівнювання */
-    height: 68vh; /* Висота контейнера для вертикального центрування */
-    padding: 0;
-    margin: 0;
-   }
-.book{
-   border: 6x dotted #74A574;
-    width: 500px;
+.ilustration {
+  border: 5px dotted #74a574;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center; /* Горизонтальне вирівнювання */
+  align-items: center; /* Вертикальне вирівнювання */
+  height: 68vh; /* Висота контейнера для вертикального центрування */
+  padding: 0;
+  margin: 0;
+}
+.book {
+  border: 6x dotted #74a574;
+  width: 500px;
   height: 200px;
-    overflow: scroll; 
-    display: block;
-    padding: 0;
-    margin: 0; 
+  overflow: scroll;
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 
-.text{
-   margin: 10px 5px 6px 27px;
-    align-items: center;
+.text {
+  margin: 10px 5px 6px 27px;
+  align-items: center;
 }
 
-.abc{
- align-items: center;
+.instagram-link {
+  color: #74a574;
+  text-decoration: none;
+}
+
+.abc {
+  align-items: center;
   margin: 10px 5px 6px 27px;
 }
 
-.food{
+.food {
   padding: 35px;
-    margin: 60x;
-    background-color: #F2C9E2;
-    border: 10px solid #ffffff;
-    height: 1px;
-    width: 100px;
-    color: #443626;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    align-items: center; /* Вертикальне вирівнювання */
-    justify-content: center; /* Горизонтальне вирівнювання */
+  margin: 60px;
+  background-color: #f2c9e2;
+  /* border: 10px solid #ffffff; */
+
+  color: #443626;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center; /* Вертикальне вирівнювання */
+  justify-content: center; /* Горизонтальне вирівнювання */
 }
 
-.box{
+.box {
   display: flex;
   flex-direction: row;
- margin-bottom: 20px ;
- width: 1000px;
+  margin-bottom: 20px;
+  width: 1000px;
   flex-shrink: 3;
   align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+  padding: 16px;
+  flex-wrap: wrap;
+  height: 100;
 }
 .navbar {
-    background-color: #74A574; 
-    padding: 10px; 
+  background-color: #74a574;
+  padding: 10px;
 }
 .navbar ul {
-    list-style: none; 
-    display: flex; 
-    justify-content: space-around; 
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 .navbar li {
-    margin: 0 15px; 
-    }
-    .navbar a {
-    color: rgb(228, 237, 186); 
-    text-decoration: none; 
-    font-family: Pattaya, Impact, Haettenschweiler, 'Arial Narrow Bold';
+  margin: 0 15px;
+}
+.navbar a {
+  color: rgb(228, 237, 186);
+  text-decoration: none;
+  font-family: Pattaya, Impact, Haettenschweiler, "Arial Narrow Bold";
 }
