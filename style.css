@@ -13,7 +13,37 @@ h1 {
   align-items: center;
   font-family: Pattaya, Impact, Haettenschweiler, "Arial Narrow Bold",
     sans-serif;
+    font-size: 15rem
 }
+
+.container {
+  display: flex; /* Використовуємо Flexbox */
+  align-items: center; /* Вирівнюємо елементи по центру */
+  justify-content: space-between; /* Розподіл простору між текстом та фото */
+  padding: 2rem;
+  background-color: #f6dfed; /* Білий фон */
+}
+
+.text1 {
+  max-width: 30%; /* Обмежуємо ширину текстового блоку */
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  word-wrap: break-word;
+  padding: 50px;
+}
+
+.ilustration {
+  width: 40%; 
+  border-radius: 5px; 
+  
+}
+
+
+.text-section,
+  .image-section img {
+    width: 100%; /* Блоки займають всю ширину */
+  }
 
 p {
   color: #443626;
@@ -36,7 +66,6 @@ ol {
 }
 
 .ilustration {
-  border: 5px dotted #74a574;
   width: 100%;
   height: auto;
   display: flex;
@@ -46,6 +75,12 @@ ol {
   padding: 0;
   margin: 0;
 }
+
+.text1,
+  .illustration {
+    max-width: 100%; /* Блоки займають всю ширину */
+  }
+
 .book {
   border: 6x dotted #74a574;
   width: 500px;
