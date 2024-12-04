@@ -139,10 +139,18 @@ ol {
 .navbar {
   background-color: #74a574;
   padding: 10px;
-  position: fixed;
+  position: fixed;;
   width: 100%;
   display: flex;
   top: 0;
+}
+.logo {
+    position: absolute;
+    top: 50%; /* Вирівнювання по вертикалі */
+    right: 100px; /* Відступ від правого краю */
+    transform: translateY(-50%); /* Центрує по вертикалі */
+    height: 50px; /* Задайте потрібний розмір логотипу */
+    width: auto; /* Зберігає пропорції */
 }
 .navbar ul {
   list-style: none;
@@ -153,7 +161,7 @@ ol {
   margin: 0 15px;
 }
 .navbar a {
-  color: rgb(228, 237, 186);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: Pattaya, Impact, Haettenschweiler, "Arial Narrow Bold";
 }
@@ -191,4 +199,43 @@ ol {
     font-size: 30px;
     color: white;
     cursor: pointer;
+}
+
+.poster-gallery {
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(/img/8.jpg);
+background-size: cover; /* Масштабування зображення на весь екран */
+    background-position: center; /* Центрування зображення */
+    background-repeat: no-repeat;
+}
+
+.la {
+  text-align: left;
+   position: relative;
+    font-size: 25px; 
+    color: #f6dfed;
+    background-color: #74a574;
+    border: #f6dfed;
+     display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 1000px;
+  flex-shrink: 3;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+  padding: 16px;
+  flex-wrap: wrap;
+  height: 100;
+  margin: 10px 10px 10px 27px;
+}
+.imgbi {
+display: flex; /* Вирівнює елементи у рядок */
+    flex-wrap: wrap; /* Дозволяє переносити елементи на новий рядок */
+    gap: 10px; /* Проміжок між фотографіями */
+    padding: 10px; /* Внутрішні відступи */
+   max-width: 100%; /* Обмеження ширини */
+    
 }
