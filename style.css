@@ -1,3 +1,6 @@
+html {scroll-behavior: smooth;}
+
+
 body {
   margin: 0;
     padding: 0;
@@ -143,6 +146,7 @@ ol {
   width: 100%;
   display: flex;
   top: 0;
+  z-index: 2;
 }
 .logo {
     position: absolute;
@@ -232,10 +236,35 @@ background-size: cover; /* Масштабування зображення на 
   margin: 10px 10px 10px 27px;
 }
 .imgbi {
-display: flex; /* Вирівнює елементи у рядок */
-    flex-wrap: wrap; /* Дозволяє переносити елементи на новий рядок */
-    gap: 10px; /* Проміжок між фотографіями */
-    padding: 10px; /* Внутрішні відступи */
-   max-width: 100%; /* Обмеження ширини */
-    
+display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    padding: 10px; 
+   max-width: 100%; 
+}
+
+.inst {
+  position: relative; 
+  width: 100%; 
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: #fff; 
+  background-image: url("./img/strila.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.strila {
+   max-width: 100%; 
+  height: auto;
+}
+
+.icccc {
+  top: 50%; 
+  align-items: center;
+  left: 50%; 
+  width: 50px; 
+  height: 50px;
 }
